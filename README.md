@@ -45,11 +45,11 @@ Use a `JOIN` query to explore their relationship.
 
 Exit the `sqlite3` command line.
 
-## Phase 1: `COUNT`
+## Step 1: `COUNT`
 
 Write a query to determine the number of cats stored in the database.
 
-## Phase 2: `MIN` / `MAX`
+## Step 2: `MIN` / `MAX`
 
 Write a query for the oldest cat, and the year it was born.
 
@@ -57,18 +57,5 @@ Write a query for the youngest cat, and the year it was born.
 
 > Hint: Think about how birth_year relates to age.
 
-### Consider this...
-
-Can you query for both cats in one simple `SELECT`?
-
-(Spend only a minute or two. Writing a query may help.)
-
-# Phase 3: `GROUP BY`
-
-Write a query to list the number of toys per cat.
-
-> HINT: You'll need a `JOIN` as well as the appropriate aggregate function(s).
-
-# Phase 4: `HAVING`
-
-Write a query to determine which cats have been "spoiled" with two or more toys.
+Consider this... Can you query for both cats in one simple `SELECT`? (Spend only
+a minute or two. Writing a query may help.)
