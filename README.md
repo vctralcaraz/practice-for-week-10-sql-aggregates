@@ -38,6 +38,10 @@ The tables are structured as follows...
 | name   | TEXT    |                                 |
 | cat_id | INTEGER | FOREIGN KEY REFERENCES cats(id) |
 
+Represented in a schema diagram:
+
+![cats-toys-db-schema]
+
 Run a few queries using the command line (CLI) to see the `cats` and `toys`
 provided in the seed data.
 
@@ -59,3 +63,7 @@ Write a query for the youngest cat, and the year it was born.
 
 Consider this... Can you query for both cats in one simple `SELECT`? (Spend only
 a minute or two. Writing a query may help.)
+
+
+[cats-toys-db-schema]: https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-10/cats-toys-db-schema.png
+[cats-toys-db-diagram-info]: https://appacademy-open-assets.s3.us-west-1.amazonaws.com/Modular-Curriculum/content/week-10/cats-toys-db-diagram-info.txt
