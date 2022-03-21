@@ -12,7 +12,7 @@ Execute the file __build-db.sql__ in the terminal to build the database,
 and populate it with seed data.
 
 ```shell
-sqlite3 db.sqlite ".read build-db.sql"
+sqlite3 dev.db ".read build-db.sql"
 ```
 
 In the _sql-practice_ folder, create a file called _aggregates.sql_ to hold your
